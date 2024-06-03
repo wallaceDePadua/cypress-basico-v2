@@ -4,8 +4,7 @@ jobs:
   cypress-run:
     runs-on: ubuntu-20.04
 
-    runs:
-    using: 'node20'
+    runs-using: 'node20'
     main: 'main.js'
     steps:
       - name: Checkout
